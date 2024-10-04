@@ -220,15 +220,17 @@ aside.ant-layout-sider{
   background-color: #6A5ACD; /* Purple */
   color: white;
 }
-/* .ant-menu-inline.ant-menu-root .ant-menu-submenu .ant-menu-submenu-title:hover{
-  color: #141414 !important;
+.ant-list.header-notifications-dropdown{
+  background-color: #fff;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
 }
-.ant-menu-submenu:hover > .ant-menu-submenu-title > .ant-menu-submenu-expand-icon, .ant-menu-submenu:hover > .ant-menu-submenu-title > .ant-menu-submenu-arrow {
-  color:  #141414 !important;
-} */
-/* .sider-collapsed .ant-layout-sider-children ul li .ant-menu-title-content a{
-  padding: 10px 0px !important;
-} */
+.ant-list.header-notifications-dropdown .ant-list-item .ant-list-item-meta .ant-list-item-meta-content{
+  width:100% !important;
+}
+.ant-list.header-notifications-dropdown .ant-list-item{
+  padding: 12px 20px;
+}
 .sider-collapsed .ant-layout-sider-children ul li  a span.label{
   opacity: 0;
 }
