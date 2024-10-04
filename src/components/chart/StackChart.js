@@ -16,9 +16,8 @@ const HorizontalBarChart = () => {
     plotOptions: {
       bar: {
         horizontal: true,
-        endingShape: "rounded",   // Ensure rounded edges
-        startingShape: "rounded",  // Ensure rounded edges
-        barHeight: '60%',          // Slimmer bars with a gap
+        endingShape: "rounded",   // Ensure rounded edges on the right side
+        barHeight: '60%',         // Slimmer bars with a gap
       },
     },
     dataLabels: {
@@ -71,7 +70,7 @@ const HorizontalBarChart = () => {
 
   return (
     <div>
-      <h2>Lead Status</h2>
+      {/* <h2>Lead Status</h2> */}
       <Chart options={options} series={series} type="bar" height={350} />
     </div>
   );

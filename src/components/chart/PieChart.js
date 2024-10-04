@@ -32,7 +32,7 @@ const SimplePieChart = () => {
 
   return (
     <div>
-      <h2>Lead Status Distribution</h2>
+      {/* <h2>Lead Status Distribution</h2> */}
       <Chart options={options} series={series} type="pie" height={350} />
     </div>
   );

@@ -152,6 +152,74 @@ aside.ant-layout-sider{
 .apexcharts-bar {
   border-radius: 10px; /* Adjust this value for more/less rounding */
 }
+/* TeamStatistics.css */
+.ant-table-thead > tr > th {
+  background-color: #1890ff;
+  color: white;
+  text-align: center;
+}
+
+.ant-table-tbody > tr > td {
+  text-align: center;
+}
+
+.ant-table-thead > tr > th:first-child,
+.ant-table-tbody > tr > td:first-child {
+  text-align: left;
+}
+.date-picker-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.calendar-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calendar-wrapper label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.react-datepicker {
+  border: 1px solid #EAEAEA;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.react-datepicker__navigation--previous,
+.react-datepicker__navigation--next {
+  background-color: #6A5ACD; /* Purple */
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+}
+
+.react-datepicker__header {
+  background-color: #f7f9fc;
+  border-bottom: none;
+}
+
+.react-datepicker__day-name,
+.react-datepicker__day,
+.react-datepicker__time-name {
+  color: #333;
+  font-weight: bold;
+}
+
+.react-datepicker__day--selected {
+  background-color: #6A5ACD; /* Purple */
+  color: white;
+}
+
+.react-datepicker__day--keyboard-selected {
+  background-color: #6A5ACD; /* Purple */
+  color: white;
+}
 /* .ant-menu-inline.ant-menu-root .ant-menu-submenu .ant-menu-submenu-title:hover{
   color: #141414 !important;
 }
