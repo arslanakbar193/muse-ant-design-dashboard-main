@@ -231,6 +231,10 @@ aside.ant-layout-sider{
 .ant-list.header-notifications-dropdown .ant-list-item{
   padding: 12px 20px;
 }
+.ant-card.criclebox thead tr th.ant-table-cell{
+  font-size: 14px;
+    color: #1890ff;
+}
 .sider-collapsed .ant-layout-sider-children ul li  a span.label{
   opacity: 0;
 }

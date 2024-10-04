@@ -41,7 +41,6 @@ const TeamStatistics = () => {
       pagination={pagination}
       onChange={handleTableChange}
       bordered
-      title={() => 'Team Statistics'}
     />
   );
 };
